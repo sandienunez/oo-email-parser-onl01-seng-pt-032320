@@ -10,6 +10,6 @@ class EmailAddressParser
     @arel@test.com = arel@test.com
   end 
   
-  EmailAddressParser.parse("avi@test.com", "arel@test.com")
+  def EmailAddressParser.parse("avi@test.com", "arel@test.com")
   end 
 end 
