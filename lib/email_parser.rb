@@ -10,7 +10,7 @@ class EmailAddressParser
   end 
   
   def parse
-  until @emails 
+  until @emails.eos?
   end
 	
 end
