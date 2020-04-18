@@ -9,4 +9,7 @@ class EmailAddressParser
     @avi@test.com = avi@test.com
     @arel@test.com = arel@test.com
   end 
+  
+  EmailAddressParser.parse
+  end 
 end 
