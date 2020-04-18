@@ -9,6 +9,6 @@ class EmailAddressParser
     @emails = emails 
   end 
   
-  def EmailAddressParser.parse("avi@test.com", "arel@test.com")
+  def parse("avi@test.com", "arel@test.com")
   end 
 end 
