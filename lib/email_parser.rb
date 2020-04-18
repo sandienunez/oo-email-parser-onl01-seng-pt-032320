@@ -10,8 +10,8 @@ class EmailAddressParser
   end 
   
   def parse
-  until @emails.eos?
-  end
+  emails.delete(',').split.uniq
+end
 
 end
 
