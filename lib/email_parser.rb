@@ -10,7 +10,8 @@ class EmailAddressParser
   end 
   
   def parse 
-    unique_array= @emails.split(/[,\s]/)
+    unique_array = []
+    unique_array = @emails.split(/[,\s]/)
   end 
 end 
   # def parse
