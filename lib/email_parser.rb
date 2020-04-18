@@ -5,11 +5,12 @@
 class EmailAddressParser
   attr accessor :avi@test.com, :arel@test.com
   
-  def initialize (avi@test.com, arel@test.com)
+  def initialize(avi@test.com, arel@test.com)
     @avi@test.com = avi@test.com
     @arel@test.com = arel@test.com
   end 
   
   EmailAddressParser.parse
+  (avi@test.com, arel@test.com)
   end 
 end 
