@@ -9,12 +9,15 @@ class EmailAddressParser
     @emails = emails 
   end 
   
-  def parse
-    email_array = []
-    email_array = @emails.split(/[,\s]/)
-    email_array = email_array.reject { |e| e == ""}
-    email_array.uniq
-  end
+  def parse 
+    @emails.split(/[,\s]/)
+  end 
+  # def parse
+  #   email_array = []
+  #   email_array = @emails.split(/[,\s]/)
+  #   email_array = email_array.reject { |e| e == ""}
+  #   email_array.uniq
+  # end
   
 #   def parse
 #   emails.delete(',').split.uniq
