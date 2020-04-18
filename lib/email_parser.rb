@@ -12,6 +12,6 @@ class EmailAddressParser
   def parse
   until @emails.eos?
   end
-	
+
 end
 
