@@ -5,9 +5,8 @@
 class EmailAddressParser
   attr accessor emails
   
-  def initialize(avi@test.com, arel@test.com)
-    @avi@test.com = avi@test.com
-    @arel@test.com = arel@test.com
+  def initialize(emails)
+    @emails = emails 
   end 
   
   def EmailAddressParser.parse("avi@test.com", "arel@test.com")
